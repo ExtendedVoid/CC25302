@@ -11,7 +11,7 @@ void main(void){
   for(;;)
   {
     
-    if(P0_1==1)		//if button 1 press led 1 ON
+    if(P0_1==1)
     {
        P1_0=1;
     }
@@ -20,7 +20,7 @@ void main(void){
        P1_0=0;
     }
     
-    if(P2_0==1)		//if button 2 press led 2 ON
+    if(P2_0==1)
     {
        P1_1=1;
     }
